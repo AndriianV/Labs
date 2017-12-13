@@ -1,0 +1,32 @@
+#include <iostream>
+#include <math.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv)
+ {
+ 	int a,b;
+ 	cout<<"Vvedit A="; cin>>a;
+ 	cout<<"Vvedit B="; cin>>b;
+ 	switch (a+b)
+ 	{
+	 case 0:
+ 		{
+		 cout<<"X=0"<<endl;
+		 break;
+		 }
+	 case 1:
+	 	{
+	 	 cout<<"X=0"<<endl;
+	 	 break;
+		 }
+	 case 2:
+	 	{
+	 	 cout<<"X=1"<<endl;
+	 	 break;
+		 }
+    default:
+    	cout<<"Vvedeno nepravylne znachennia"<<endl;
+	 }
+	 
+	return 0;
+}
