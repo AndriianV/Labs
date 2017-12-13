@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	double a,b,x,y;
+	cout<<"Vvedit A="; cin>>a;
+	cout<<"Vvedit B="; cin>>b;
+	cout<<"Vvedit X="; cin>>x;
+	y=log10(asin(a*pow(x,2)))+pow(tan(b*x),1.0/3.0)+exp(3.7);
+	cout<<"Y="<<y<<endl;
+	return 0;
+}
