@@ -1,0 +1,19 @@
+#include <iostream>
+#include <math.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv)
+ {
+ 	double x,xk,dx,y;
+ 	cout<<"Xp="; cin>>x;
+ 	cout<<"Xk="; cin>>xk;
+ 	cout<<"Krok="; cin>>dx;
+ 	while(x<=xk)
+ 	{
+ 		y=2*x+tan(x)+exp(x)-log10(2+x);
+ 		cout<<"x="<<x<<'\t';
+		cout<<"y="<<y<<endl;
+ 		x=x+dx;
+	 }
+	return 0;
+}
