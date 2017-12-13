@@ -1,0 +1,12 @@
+#include <iostream>
+#include <math.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	double c,k,l;
+	cout<<"Vvedit C="; cin>>c;
+	cout<<"Vvedit K="; cin>>k;
+	l=((pow(k,2))/(pow(4+k,2)))+c;
+	cout<<"L="<<l<<endl;
+	return 0;
+}
